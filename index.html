@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fathanadji Arya Langit — TKJ Punk Zine | SMK Bangun Nusa Bangsa</title>
+  <meta name="description" content="Website profile bertema Punk Zine milik Fathanadji Arya Langit, siswa SMK Bangun Nusa Bangsa jurusan Teknik Komputer & Jaringan (TKJ)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Rubik+Glitch&family=Space+Grotesk:wght@400;500;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="zine-dark">
+  <!-- Subtle CRT / Zine Noise Overlay -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- Top Navigation -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#top" class="brand-stamp" aria-label="Beranda Fathanadji Arya Langit">
+        <span class="brand-tag">FAL//TKJ</span>
+        <span class="brand-sub">SMK BNB</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Navigasi Utama">
+        <a href="#identitas" class="nav-item">IDENTITAS</a>
+        <a href="#skill" class="nav-item">LAB &amp; SKILL</a>
+        <a href="#proyek" class="nav-item">PROYEK</a>
+        <a href="#terminal" class="nav-item">TERMINAL</a>
+        <a href="#tembok" class="nav-item">TEMBOK ZINE</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" id="riotToggle" class="btn-riot-toggle" aria-pressed="false" title="Ganti Tema Zine Dark / Acid Riot">
+          <span class="dot-live"></span>
+          <span id="riotLabel">ACID RIOT</span>
+        </button>
+        <button type="button" id="menuToggle" class="btn-menu-mobile" aria-label="Buka Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Scrolling Punk Marquee -->
+    <div class="marquee-bar" aria-hidden="true">
+      <div class="marquee-track">
+        <span>NO RULES • ONLY PACKETS</span>
+        <span class="sep">★</span>
+        <span>FATHANADJI ARYA LANGIT</span>
+        <span class="sep">⚡</span>
+        <span>SMK BANGUN NUSA BANGSA</span>
+        <span class="sep">★</span>
+        <span>TEKNIK KOMPUTER &amp; JARINGAN (TKJ)</span>
+        <span class="sep">⚡</span>
+        <span>CRIMPING • ROUTING • LINUX • DIY</span>
+        <span class="sep">★</span>
+        <span>NO RULES • ONLY PACKETS</span>
+        <span class="sep">⚡</span>
+        <span>FATHANADJI ARYA LANGIT</span>
+        <span class="sep">★</span>
+        <span>SMK BANGUN NUSA BANGSA</span>
+        <span class="sep">⚡</span>
+        <span>TEKNIK KOMPUTER &amp; JARINGAN (TKJ)</span>
+        <span class="sep">★</span>
+        <span>CRIMPING • ROUTING • LINUX • DIY</span>
+        <span class="sep">⚡</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="sticker-row">
+            <span class="stamp stamp-crimson">EDISI #01 // UNDERGROUND</span>
+            <span class="stamp stamp-yellow">TKJ NETRUNNER</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="cutout-line">FATHANADJI</span>
+            <span class="cutout-line cutout-accent">ARYA LANGIT</span>
+          </h1>
+
+          <div class="school-banner">
+            <span class="banner-pin" aria-hidden="true">✕</span>
+            <div>
+              <p class="banner-school">SMK BANGUN NUSA BANGSA</p>
+              <p class="banner-major">JURUSAN TEKNIK KOMPUTER &amp; JARINGAN (TKJ)</p>
+            </div>
+          </div>
+
+          <p class="hero-desc">
+            Anak TKJ berjiwa <strong>DIY Punk</strong> — merakit hardware dari nol, ngoprek router MikroTik &amp; server Linux, hingga menarik kabel UTP agar semua paket tetap terhubung tanpa kompromi.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#terminal" class="btn-punk btn-primary">
+              <span>&gt;_ BUKA TERMINAL TKJ</span>
+            </a>
+            <a href="#proyek" class="btn-punk btn-secondary">
+              <span>ARSIP LAB &amp; PROYEK</span>
+            </a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric-chip">
+              <span class="metric-val">100%</span>
+              <span class="metric-key">DIY SPIRIT</span>
+            </div>
+            <div class="metric-chip">
+              <span class="metric-val">T568B</span>
+              <span class="metric-key">CRIMP READY</span>
+            </div>
+            <div class="metric-chip">
+              <span class="metric-val">24/7</span>
+              <span class="metric-key">PING ALIVE</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="zine-photo-frame">
+            <div class="tape tape-top-left" aria-hidden="true"></div>
+            <div class="tape tape-bottom-right" aria-hidden="true"></div>
+            <img src="assets/punk-avatar.jpg" alt="Ilustrasi Punk Zine Fathanadji Arya Langit memegang kabel Ethernet" class="hero-avatar" />
+            <div class="photo-caption">
+              <span class="cap-code">ID: TKJ-BNB-01</span>
+              <span class="cap-status"><i class="pulse-dot"></i> ONLINE // PACKET OK</span>
+            </div>
+          </div>
+
+          <!-- Floating Sticker SVG Badge -->
+          <div class="floating-badge" aria-hidden="true">
+            <svg viewBox="0 0 120 120" class="badge-svg">
+              <polygon points="60,4 73,26 98,17 95,43 118,55 98,71 106,96 80,94 69,117 51,99 27,109 30,83 6,74 24,55 12,32 38,31 45,6" fill="#eaff00" stroke="#0c0c0d" stroke-width="4" />
+              <text x="60" y="54" text-anchor="middle" font-family="Anton, sans-serif" font-size="16" fill="#0c0c0d">ANARCHY</text>
+              <text x="60" y="73" text-anchor="middle" font-family="Space Mono, monospace" font-weight="700" font-size="13" fill="#ff1e42">IN THE LAN</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TORN DIVIDER -->
+    <div class="torn-divider" aria-hidden="true"></div>
+
+    <!-- SECTION 1: IDENTITAS & MANIFESTO -->
+    <section id="identitas" class="section-block section-paper">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">01 // DOSSIER PRIBADI</span>
+          <h2 class="section-title">IDENTITAS &amp; MANIFESTO</h2>
+        </div>
+
+        <div class="identity-grid">
+          <!-- Student ID Zine Card -->
+          <article class="punk-card id-card">
+            <div class="tape tape-top-center" aria-hidden="true"></div>
+            <div class="id-card-head">
+              <span class="id-label">KARTU ANGGOTA LAB</span>
+              <span class="id-serial">NO. 0404-TKJ</span>
+            </div>
+            <dl class="dossier-list">
+              <div class="dossier-row">
+                <dt>NAMA LENGKAP</dt>
+                <dd>Fathanadji Arya Langit</dd>
+              </div>
+              <div class="dossier-row">
+                <dt>SEKOLAH</dt>
+                <dd>SMK Bangun Nusa Bangsa</dd>
+              </div>
+              <div class="dossier-row">
+                <dt>KOMPETENSI KEAHLIAN</dt>
+                <dd>Teknik Komputer &amp; Jaringan (TKJ)</dd>
+              </div>
+              <div class="dossier-row">
+                <dt>BASECAMP</dt>
+                <dd>Lab TKJ • Rack Server • Terminal CLI</dd>
+              </div>
+              <div class="dossier-row">
+                <dt>PRINSIP KERJA</dt>
+                <dd>Bongkar, Pahami, Rakit Ulang Lebih Kencang</dd>
+              </div>
+            </dl>
+            <div class="barcode-strip" aria-hidden="true">
+              <div class="barcode-bars"></div>
+              <span>*FATHANADJI-SMKBNB-TKJ*</span>
+            </div>
+          </article>
+
+          <!-- Manifesto & Timeline -->
+          <div class="manifesto-col">
+            <blockquote class="manifesto-poster">
+              <span class="quote-mark">“</span>
+              <p>
+                Punk dan TKJ punya jiwa yang sama: <strong>Do It Yourself</strong>. Jangan cuma jadi pengguna — pahami setiap lapisan OSI, pegang tang crimping sendiri, tulis rule firewall sendiri, dan bangun jaringan yang tangguh.
+              </p>
+              <footer>— FATHANADJI ARYA LANGIT // SMK BANGUN NUSA BANGSA</footer>
+            </blockquote>
+
+            <div class="interest-pills">
+              <h3>FOKUS HARIAN DI LAB:</h3>
+              <div class="pills-wrap">
+                <span class="zine-pill">MikroTik Winbox &amp; CLI</span>
+                <span class="zine-pill">Debian Server</span>
+                <span class="zine-pill">Crimping Cat6</span>
+                <span class="zine-pill">Subnetting IPv4</span>
+                <span class="zine-pill">Troubleshooting PC</span>
+                <span class="zine-pill">Bash Scripting</span>
+                <span class="zine-pill">Musik Punk Rock</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: LAB & SKILL ARSENAL -->
+    <section id="skill" class="section-block section-dark">
+      <div class="container">
+        <div class="section-header header-split">
+          <div>
+            <span class="section-tag">02 // SENJATA TEKNIS</span>
+            <h2 class="section-title">LAB &amp; SKILL ARSENAL</h2>
+          </div>
+
+          <div class="filter-bar" role="tablist" aria-label="Filter Keahlian TKJ">
+            <button type="button" class="filter-btn active" data-filter="all" role="tab" aria-selected="true">SEMUA</button>
+            <button type="button" class="filter-btn" data-filter="jaringan" role="tab" aria-selected="false">JARINGAN</button>
+            <button type="button" class="filter-btn" data-filter="sysadmin" role="tab" aria-selected="false">SYSADMIN</button>
+            <button type="button" class="filter-btn" data-filter="hardware" role="tab" aria-selected="false">HARDWARE</button>
+          </div>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+          <article class="skill-card" data-category="jaringan">
+            <div class="skill-top">
+              <span class="skill-cat">JARINGAN</span>
+              <span class="skill-code">NET-01</span>
+            </div>
+            <h3>MikroTik &amp; Routing</h3>
+            <p>Konfigurasi NAT, DHCP Server, Hotspot login page, Simple Queue / Queue Tree, serta Static Routing antar subnet.</p>
+            <div class="vu-meter" aria-label="Tingkat penguasaan 90 persen">
+              <div class="vu-label"><span>SINYAL</span><span>90%</span></div>
+              <div class="vu-track"><div class="vu-fill" style="--lvl: 90%"></div></div>
+            </div>
+          </article>
+
+          <article class="skill-card" data-category="sysadmin">
+            <div class="skill-top">
+              <span class="skill-cat">SYSADMIN</span>
+              <span class="skill-code">SYS-02</span>
+            </div>
+            <h3>Linux Server &amp; CLI</h3>
+            <p>Instalasi dan administrasi Debian/Ubuntu Server: BIND9 DNS, Nginx/Apache Web Server, Samba File Sharing, dan SSH.</p>
+            <div class="vu-meter" aria-label="Tingkat penguasaan 85 persen">
+              <div class="vu-label"><span>SINYAL</span><span>85%</span></div>
+              <div class="vu-track"><div class="vu-fill" style="--lvl: 85%"></div></div>
+            </div>
+          </article>
+
+          <article class="skill-card" data-category="hardware">
+            <div class="skill-top">
+              <span class="skill-cat">HARDWARE</span>
+              <span class="skill-code">HW-03</span>
+            </div>
+            <h3>Crimping &amp; Cabling</h3>
+            <p>Perakitan kabel UTP Straight (T568B) &amp; Crossover, terminasi patch panel, serta pengenalan dasar Fiber Optic.</p>
+            <div class="vu-meter" aria-label="Tingkat penguasaan 95 persen">
+              <div class="vu-label"><span>SINYAL</span><span>95%</span></div>
+              <div class="vu-track"><div class="vu-fill" style="--lvl: 95%"></div></div>
+            </div>
+          </article>
+
+          <article class="skill-card" data-category="jaringan">
+            <div class="skill-top">
+              <span class="skill-cat">JARINGAN</span>
+              <span class="skill-code">NET-04</span>
+            </div>
+            <h3>Topologi &amp; Subnetting</h3>
+            <p>Perhitungan CIDR/VLSM IPv4 cepat, simulasi topologi di Cisco Packet Tracer, serta setup VLAN &amp; Access Point.</p>
+            <div class="vu-meter" aria-label="Tingkat penguasaan 88 persen">
+              <div class="vu-label"><span>SINYAL</span><span>88%</span></div>
+              <div class="vu-track"><div class="vu-fill" style="--lvl: 88%"></div></div>
+            </div>
+          </article>
+
+          <article class="skill-card" data-category="hardware">
+            <div class="skill-top">
+              <span class="skill-cat">HARDWARE</span>
+              <span class="skill-code">HW-05</span>
+            </div>
+            <h3>Rakit PC &amp; Diagnosa</h3>
+            <p>Perakitan PC, manajemen kabel casing, konfigurasi BIOS/UEFI, partisi disk, dan troubleshooting hardware/OS.</p>
+            <div class="vu-meter" aria-label="Tingkat penguasaan 92 persen">
+              <div class="vu-label"><span>SINYAL</span><span>92%</span></div>
+              <div class="vu-track"><div class="vu-fill" style="--lvl: 92%"></div></div>
+            </div>
+          </article>
+
+          <article class="skill-card" data-category="sysadmin">
+            <div class="skill-top">
+              <span class="skill-cat">SYSADMIN</span>
+              <span class="skill-code">SEC-06</span>
+            </div>
+            <h3>Keamanan &amp; Monitoring</h3>
+            <p>Filter Firewall MikroTik &amp; UFW, analisis paket lewat Wireshark, port scanning dengan Nmap, dan log monitoring.</p>
+            <div class="vu-meter" aria-label="Tingkat penguasaan 80 persen">
+              <div class="vu-label"><span>SINYAL</span><span>80%</span></div>
+              <div class="vu-track"><div class="vu-fill" style="--lvl: 80%"></div></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: PROYEK ZINE -->
+    <section id="proyek" class="section-block section-crimson">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag tag-dark">03 // CATATAN EKSPERIMEN</span>
+          <h2 class="section-title title-light">ARSIP PROYEK ZINE</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="tape tape-top-left" aria-hidden="true"></div>
+            <div class="project-meta">
+              <span class="issue-no">LAB-01</span>
+              <span class="project-year">TKJ // MIKROTIK</span>
+            </div>
+            <h3>RTR-RIOT: Manajemen Bandwidth &amp; Hotspot</h3>
+            <p>Merancang portal login hotspot bergaya underground dengan pembagian bandwidth adil per user menggunakan Queue Tree dan Firewall Layer-7.</p>
+            <ul class="tech-tags">
+              <li>RouterOS</li>
+              <li>Hotspot</li>
+              <li>Queue Tree</li>
+            </ul>
+            <button type="button" class="btn-log" data-project="rtr-riot">LIHAT CATATAN LAB →</button>
+          </article>
+
+          <article class="project-card">
+            <div class="tape tape-top-right" aria-hidden="true"></div>
+            <div class="project-meta">
+              <span class="issue-no">LAB-02</span>
+              <span class="project-year">TKJ // DEBIAN</span>
+            </div>
+            <h3>DEBIAN-ZINE: Server DNS &amp; Web Lokal</h3>
+            <p>Membangun server intranet berbasis Debian CLI lengkap dengan domain lokal via BIND9, virtual host Nginx, serta autentikasi SSH key-only.</p>
+            <ul class="tech-tags">
+              <li>Debian 12</li>
+              <li>BIND9</li>
+              <li>Nginx</li>
+            </ul>
+            <button type="button" class="btn-log" data-project="debian-zine">LIHAT CATATAN LAB →</button>
+          </article>
+
+          <article class="project-card">
+            <div class="tape tape-top-center" aria-hidden="true"></div>
+            <div class="project-meta">
+              <span class="issue-no">LAB-03</span>
+              <span class="project-year">TKJ // CABLING</span>
+            </div>
+            <h3>CAT6-ANARCHY: Re-Wiring Rack &amp; Patch Panel</h3>
+            <p>Merapikan jalur kabel LAN lab praktik dengan standar T568B, pelabelan port switch 24-port, dan pengujian pin-to-pin tanpa packet loss.</p>
+            <ul class="tech-tags">
+              <li>UTP Cat6</li>
+              <li>T568B</li>
+              <li>LAN Tester</li>
+            </ul>
+            <button type="button" class="btn-log" data-project="cat6-anarchy">LIHAT CATATAN LAB →</button>
+          </article>
+
+          <article class="project-card">
+            <div class="tape tape-top-left" aria-hidden="true"></div>
+            <div class="project-meta">
+              <span class="issue-no">LAB-04</span>
+              <span class="project-year">TKJ // AUTOMATION</span>
+            </div>
+            <h3>NET-SCAN: Bash Ping Sweeper</h3>
+            <p>Skrip Bash ringan untuk memindai seluruh IP aktif di segmen `/24` dalam hitungan detik dan mencatat status UP/DOWN ke file log.</p>
+            <ul class="tech-tags">
+              <li>Bash</li>
+              <li>ICMP</li>
+              <li>CLI Log</li>
+            </ul>
+            <button type="button" class="btn-log" data-project="net-scan">LIHAT CATATAN LAB →</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: INTERACTIVE TKJ TERMINAL -->
+    <section id="terminal" class="section-block section-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">04 // SHELL INTERAKTIF</span>
+          <h2 class="section-title">TKJ PUNK TERMINAL</h2>
+          <p class="section-sub">Klik tombol perintah di bawah atau ketik langsung perintah seperti <code>whoami</code>, <code>sekolah</code>, <code>skill</code>, <code>ping</code>, atau <code>help</code>.</p>
+        </div>
+
+        <div class="terminal-window">
+          <div class="terminal-bar">
+            <div class="term-dots" aria-hidden="true">
+              <span class="tdot t-red"></span>
+              <span class="tdot t-yellow"></span>
+              <span class="tdot t-green"></span>
+            </div>
+            <div class="term-title">fathanadji@smk-bangun-nusa-bangsa: ~/tkj-zine</div>
+            <button type="button" id="termClearBtn" class="term-clear-btn">CLEAR</button>
+          </div>
+
+          <div class="term-quick-cmds" aria-label="Perintah cepat terminal">
+            <button type="button" class="cmd-chip" data-cmd="whoami">whoami</button>
+            <button type="button" class="cmd-chip" data-cmd="sekolah">sekolah</button>
+            <button type="button" class="cmd-chip" data-cmd="skill">skill</button>
+            <button type="button" class="cmd-chip" data-cmd="ping">ping</button>
+            <button type="button" class="cmd-chip" data-cmd="proyek">proyek</button>
+            <button type="button" class="cmd-chip" data-cmd="riot">riot</button>
+            <button type="button" class="cmd-chip" data-cmd="help">help</button>
+          </div>
+
+          <div class="terminal-output" id="terminalOutput" aria-live="polite"></div>
+
+          <form class="terminal-input-row" id="terminalForm">
+            <label for="terminalInput" class="term-prompt">fathanadji@tkj:~$ </label>
+            <input type="text" id="terminalInput" class="term-input" placeholder="ketik perintah (contoh: help)..." autocomplete="off" spellcheck="false" />
+            <button type="submit" class="term-send">ENTER</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: TEMBOK PUNK & KONTAK -->
+    <section id="tembok" class="section-block section-paper">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">05 // TEMBOK ZINE &amp; KONTAK</span>
+          <h2 class="section-title">TINGGALKAN JEJAK DI TEMBOK</h2>
+        </div>
+
+        <div class="wall-contact-grid">
+          <!-- Interactive Punk Shoutbox Wall -->
+          <div class="punk-wall-box">
+            <h3>CORAT-CORET TEMBOK ZINE</h3>
+            <p class="wall-hint">Tulis pesan, salam sesama anak TKJ, atau catatan punk rock (tersimpan lokal di browser).</p>
+            <form id="wallForm" class="wall-form">
+              <div class="form-row">
+                <input type="text" id="wallName" maxlength="30" placeholder="Nama / Nickname (contoh: AnakLab_02)" required />
+                <input type="text" id="wallTag" maxlength="20" placeholder="Tag (contoh: TKJ-X)" />
+              </div>
+              <textarea id="wallMsg" rows="3" maxlength="160" placeholder="Tulis pesan singkatmu di tembok..." required></textarea>
+              <button type="submit" class="btn-punk btn-primary">TEMPEL STIKER KE TEMBOK</button>
+            </form>
+
+            <div class="wall-notes" id="wallNotes"></div>
+          </div>
+
+          <!-- Contact & Links Card -->
+          <aside class="contact-card">
+            <div class="tape tape-top-right" aria-hidden="true"></div>
+            <h3>KONTAK &amp; JALUR KOMUNIKASI</h3>
+            <p class="contact-intro">Siap diskusi soal jaringan komputer, Linux, rakit PC, atau kolaborasi proyek sekolah.</p>
+
+            <div class="contact-list">
+              <div class="contact-item">
+                <div>
+                  <span class="c-label">NAMA &amp; IDENTITAS</span>
+                  <strong class="c-val">Fathanadji Arya Langit</strong>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div>
+                  <span class="c-label">SEKOLAH &amp; JURUSAN</span>
+                  <strong class="c-val">SMK Bangun Nusa Bangsa — TKJ</strong>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div>
+                  <span class="c-label">EMAIL</span>
+                  <strong class="c-val" id="emailText">fathanadji.tkj@smkbnb.sch.id</strong>
+                </div>
+                <button type="button" class="copy-btn" data-copy="fathanadji.tkj@smkbnb.sch.id">SALIN</button>
+              </div>
+              <div class="contact-item">
+                <div>
+                  <span class="c-label">HANDLE / GITHUB</span>
+                  <strong class="c-val" id="handleText">@fathanadji-tkj</strong>
+                </div>
+                <button type="button" class="copy-btn" data-copy="@fathanadji-tkj">SALIN</button>
+              </div>
+            </div>
+
+            <div class="punk-callout">
+              <span>⚡ STATUS:</span> TERBUKA UNTUK KOLABORASI LAB, PKL, &amp; PROYEK JARINGAN.
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Modal -->
+  <div class="modal-backdrop" id="projectModal" hidden role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button type="button" class="modal-close" id="modalClose" aria-label="Tutup Catatan Lab">✕</button>
+      <span class="stamp stamp-crimson" id="modalBadge">LAB-01</span>
+      <h3 id="modalTitle">Judul Proyek</h3>
+      <p id="modalDesc" class="modal-desc"></p>
+      <pre class="modal-code" id="modalCode"></pre>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">FATHANADJI ARYA LANGIT // TKJ PUNK ZINE</p>
+        <p class="footer-sub">SMK Bangun Nusa Bangsa • Teknik Komputer &amp; Jaringan • DIY Or Die</p>
+      </div>
+      <a href="#top" class="back-top">↑ KE ATAS</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
